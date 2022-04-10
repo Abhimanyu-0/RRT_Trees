@@ -24,6 +24,6 @@ execute- this function is used for compiling all the other functions of the algo
 
 
 
-Questions: Do I really need a node_list list? - No I don't, thats why I deleted it.
+
 
 
