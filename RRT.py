@@ -103,9 +103,7 @@ class RRT:
             else:
                 print("Not good",self.mock_list[i])
                 
-                
-                            
-        
+               
         return self.mock_list
    
     
