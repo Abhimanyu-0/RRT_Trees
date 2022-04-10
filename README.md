@@ -7,7 +7,7 @@ execute- this function is used for compiling all the other functions of the algo
 
 1. Initialized all the important variables (will keep on doing so as and when I remember them)
 
-2. Sampled a random node between 2 and 70 of size1 and added it to the mock_list 
+2. Sampled a random node between 10 and 90 of size1 and added it to the mock_list 
 
 3. A function to evaluate the sampled node(s) and print a message that says if they are within the bounds or not and then 
 
