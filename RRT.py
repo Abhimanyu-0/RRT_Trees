@@ -32,7 +32,19 @@ def plot(Start, goal, obstacle):
     return plt.show()
 
 class RRT: 
- 
+    
+    def __init__(self, start, goal, obstacle, max_length= 20, iterations =5):
+        self.start = start
+        self.goal = goal 
+        self.obstacle = obstacle
+        self.max_length = max_length
+        self.iterations = iterations
+        self.node_list = [start]
+        self.mock_list = [start]
+        self.dist_list = []
+        self.plist = []
+        
+        
     def execute(self):
         start = np.array([30,30])
         goal = np.array([80,60])
@@ -63,22 +75,6 @@ class RRT:
     
             
             """)
-           
-    
-    
-    
-    
-    
-    def __init__(self, start, goal, obstacle, max_length= 20, iterations =5):
-        self.start = start
-        self.goal = goal 
-        self.obstacle = obstacle
-        self.max_length = max_length
-        self.iterations = iterations
-        self.node_list = [start]
-        self.mock_list = [start]
-        self.dist_list = []
-        self.plist = []
         
            
     def rand_sample_node(self):
