@@ -17,7 +17,7 @@ execute- this function is used for compiling all the other functions of the algo
 5. The nearest_node function is used to find out the minimum distance in the list 
   [ a secondary question is that whether I needed to implement an altogether different function for it. 
 
-6. This is the one that I am not really sure about, because it may avoid diretly going through the obstacles although there is a good chance that two nodes with neither of them present on the obstacle have a vector that passes through the obstacle which is not allowed.
+6. This is the collision avoidance function. 
 
 - I instantiated the class RRT and then used the rrt.execute function.
 
