@@ -25,6 +25,11 @@ execute- this function is used for compiling all the other functions of the algo
 
 
 
+NOTE: 
+1. The obstacle detection and avoidance function needs work.
+
+
+
 
 
 
